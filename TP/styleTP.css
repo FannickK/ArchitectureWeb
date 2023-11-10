@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.client-item {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.client-item:hover {
+    background-color: #f0f0f0;
+}
+
+#client-details-container {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
